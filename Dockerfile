@@ -4,7 +4,7 @@ WORKDIR /usr/src/rpi_watchdog
 
 COPY . .
 
-RUN cargo build --release
+RUN cargo build --release --target=arm-unknown-linux-gnueabihf
 
 RUN cargo install --path .
 
