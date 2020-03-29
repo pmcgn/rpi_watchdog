@@ -94,5 +94,5 @@ fn check_connection(myurl: &str) -> bool{
             result=false;
           }
     }
-  return result;
+  return result; 
 }
